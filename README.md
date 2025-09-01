@@ -96,8 +96,8 @@ The interface is developed with **WPF**, providing a modern look and user experi
 
 ## 🖼️ Screenshot
 
-The screenshot below shows the main window of the application:  
-*(The `IT-Destek-resize.png` file located in the repo root is used here)*
+<img width="434" height="621" alt="image" src="https://github.com/user-attachments/assets/8df6563c-1b3d-4cb4-9278-c5b2ab1a5ecc" />
+
 
 ---
 
