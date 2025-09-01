@@ -96,7 +96,8 @@ The interface is developed with **WPF**, providing a modern look and user experi
 
 ## 🖼️ Screenshot
 
-<img width="434" height="621" alt="image" src="https://github.com/user-attachments/assets/8df6563c-1b3d-4cb4-9278-c5b2ab1a5ecc" />
+<img width="399" height="600" alt="image" src="https://github.com/user-attachments/assets/c4d4c5b8-7f60-45af-a5e6-764341653de9" />
+
 
 
 ---
