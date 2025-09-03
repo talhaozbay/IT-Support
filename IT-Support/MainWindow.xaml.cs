@@ -41,14 +41,14 @@ namespace IT_Support
         {
             if (e.ChangedButton == MouseButton.Left)
             {
-                this.DragMove(); // pencereyi sürüklemeyi sağlar
+                this.DragMove();
             }
         }
         private void Loader_MediaEnded(object sender, RoutedEventArgs e)
         {
             var player = Loader;
-            player.Position = TimeSpan.Zero; // Başa sar
-            player.Play(); // Yeniden başlat
+            player.Position = TimeSpan.Zero;
+            player.Play();
         }
         private void Close_Click(object sender, RoutedEventArgs e)
         {
@@ -63,15 +63,15 @@ namespace IT_Support
 
         }
 
-        // Fade Out (Pencere kapanırken)
+        
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             if (_isClosing) return;
 
-            e.Cancel = true; // Kapanmayı durdur
+            e.Cancel = true;
             _isClosing = true;
             var fadeOut = new DoubleAnimation(1, 0, TimeSpan.FromSeconds(0.5));
-            fadeOut.Completed += (s, _) => this.Close(); // Animasyon bitince pencereyi kapat
+            fadeOut.Completed += (s, _) => this.Close();
             this.BeginAnimation(Window.OpacityProperty, fadeOut);
         }
 
